@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/not.owl#>)
+Prefix(:=<http://purl.obolibrary.org/obo/not.owl/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -11,6 +11,10 @@ Import(<http://purl.obolibrary.org/obo/not/imports/ro_import.owl>)
 Annotation(rdfs:comment "Negation Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NOT_00000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NOT_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NOT_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NOT_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NOT_0000004>))
 
 
 ############################
@@ -20,6 +24,26 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NOT_00000000>))
 # Class: <http://purl.obolibrary.org/obo/NOT_00000000> (not)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOT_00000000> "not"@en)
+
+# Class: <http://purl.obolibrary.org/obo/NOT_0000001> (not associated)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOT_0000001> "not associated")
+SubClassOf(<http://purl.obolibrary.org/obo/NOT_0000001> <http://purl.obolibrary.org/obo/NOT_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/NOT_0000002> (not associated as expected by personal experience)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOT_0000002> "not associated as expected by personal experience")
+SubClassOf(<http://purl.obolibrary.org/obo/NOT_0000002> <http://purl.obolibrary.org/obo/NOT_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/NOT_0000003> (not associated as expected by current knowledge)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOT_0000003> "not associated as expected by current knowledge")
+SubClassOf(<http://purl.obolibrary.org/obo/NOT_0000003> <http://purl.obolibrary.org/obo/NOT_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/NOT_0000004> (not associated as expected by publication)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOT_0000004> "not associated as expected by publication")
+SubClassOf(<http://purl.obolibrary.org/obo/NOT_0000004> <http://purl.obolibrary.org/obo/NOT_0000003>)
 
 
 )
