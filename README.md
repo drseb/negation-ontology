@@ -8,6 +8,9 @@
 
 This ontology will be used to represent negated associations between any biomedical items (knockout-mice, diseases, patients, morpholinos, ...) and phenotype ontology classes.
 
+Associations between a gene or a disease with terms from phenotype ontologies or gene ontologies are sometimes negated. This means the intended meaning is that this association is actually NOT seen. 
+Currently we only used the keyword “NOT”. But as discussed on previous calls, there are different semantics of this “NOT”. This ontology should be a first pass at representing this for annotation files in different species.
+
 ## Versions
 
 ### Stable release versions
