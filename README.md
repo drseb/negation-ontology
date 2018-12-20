@@ -1,5 +1,7 @@
-[//]: #  [![Build Status](https://travis-ci.org/drseb/negation-ontology.svg?branch=master)](https://travis-ci.org/drseb/negation-ontology) )
-[//]: # ( [![DOI](https://zenodo.org/badge/13996/drseb/negation-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/drseb/negation-ontology) )
+
+[//]: # ( [![Build Status](https://travis-ci.org/drseb/negation-ontology.svg?branch=master)](https://travis-ci.org/drseb/negation-ontology) )
+
+[//]: #  ( [![DOI](https://zenodo.org/badge/13996/drseb/negation-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/drseb/negation-ontology) )
 
 
 # negation-ontology
