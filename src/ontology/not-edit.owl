@@ -15,6 +15,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NOT_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NOT_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NOT_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NOT_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NOT_0000005>))
 
 
 ############################
@@ -44,6 +45,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/NOT_0000003> <http://purl.obolibrary.
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOT_0000004> "not associated as expected by publication")
 SubClassOf(<http://purl.obolibrary.org/obo/NOT_0000004> <http://purl.obolibrary.org/obo/NOT_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/NOT_0000005> (not associated by test in larger test framework)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NOT_0000005> "not associated by test in larger test framework")
+SubClassOf(<http://purl.obolibrary.org/obo/NOT_0000005> <http://purl.obolibrary.org/obo/NOT_0000001>)
 
 
 )
