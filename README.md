@@ -1,9 +1,10 @@
-[![Build Status](https://travis-ci.org/drseb/negation-ontology.svg?branch=master)](https://travis-ci.org/drseb/negation-ontology)
-[![DOI](https://zenodo.org/badge/13996/drseb/negation-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/drseb/negation-ontology)
+[//]: #  [![Build Status](https://travis-ci.org/drseb/negation-ontology.svg?branch=master)](https://travis-ci.org/drseb/negation-ontology) )
+[//]: # ( [![DOI](https://zenodo.org/badge/13996/drseb/negation-ontology.svg)](https://zenodo.org/badge/latestdoi/13996/drseb/negation-ontology) )
+
 
 # negation-ontology
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology will be used to represent negated associations between any biomedical items (knockout-mice, diseases, patients, morpholinos, ...) and phenotype ontology classes.
 
 ## Versions
 
